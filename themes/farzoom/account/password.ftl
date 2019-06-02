@@ -76,7 +76,7 @@
         </div>
         <div class="order">
 <#--            <button type="button" class="orange">Сохранить</button>-->
-            <button type="submit" name="submitAction" value="Save">${msg("doSave")}</button>
+            <button type="submit" class="btn btn-block orange" name="submitAction" value="Save">${msg("doSave")}</button>
         </div>
 <#--        <div class="form-group">-->
 <#--            <div id="kc-form-buttons" class="col-md-offset-2 col-md-10 submit">-->
