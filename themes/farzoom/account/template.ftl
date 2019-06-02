@@ -49,35 +49,35 @@
 </head>
 <body class="admin-console user ${bodyClass}">
         
-    <header class="navbar navbar-default navbar-pf navbar-main header">
-        <nav class="navbar" role="navigation">
-            <div class="navbar-header">
-                <div class="container">
-                    <h1 class="navbar-title">Keycloak</h1>
-                </div>
-            </div>
-            <div class="navbar-collapse navbar-collapse-1">
-                <div class="container">
-                    <ul class="nav navbar-nav navbar-utility">
-                        <#if realm.internationalizationEnabled>
-                            <li>
-                                <div class="kc-dropdown" id="kc-locale-dropdown">
-                                    <a href="#" id="kc-current-locale-link">${locale.current}</a>
-                                    <ul>
-                                        <#list locale.supported as l>
-                                            <li class="kc-dropdown-item"><a href="${l.url}">${l.label}</a></li>
-                                        </#list>
-                                    </ul>
-                                </div>
-                            <li>
-                        </#if>
-                        <#if referrer?has_content && referrer.url?has_content><li><a href="${referrer.url}" id="referrer">${msg("backTo",referrer.name)}</a></li></#if>
-                        <li><a href="${url.logoutUrl}">${msg("doSignOut")}</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<#--    <header class="navbar navbar-default navbar-pf navbar-main header">-->
+<#--        <nav class="navbar" role="navigation">-->
+<#--            <div class="navbar-header">-->
+<#--                <div class="container">-->
+<#--                    <h1 class="navbar-title">Keycloak</h1>-->
+<#--                </div>-->
+<#--            </div>-->
+<#--            <div class="navbar-collapse navbar-collapse-1">-->
+<#--                <div class="container">-->
+<#--                    <ul class="nav navbar-nav navbar-utility">-->
+<#--                        <#if realm.internationalizationEnabled>-->
+<#--                            <li>-->
+<#--                                <div class="kc-dropdown" id="kc-locale-dropdown">-->
+<#--                                    <a href="#" id="kc-current-locale-link">${locale.current}</a>-->
+<#--                                    <ul>-->
+<#--                                        <#list locale.supported as l>-->
+<#--                                            <li class="kc-dropdown-item"><a href="${l.url}">${l.label}</a></li>-->
+<#--                                        </#list>-->
+<#--                                    </ul>-->
+<#--                                </div>-->
+<#--                            <li>-->
+<#--                        </#if>-->
+<#--                        <#if referrer?has_content && referrer.url?has_content><li><a href="${referrer.url}" id="referrer">${msg("backTo",referrer.name)}</a></li></#if>-->
+<#--                        <li><a href="${url.logoutUrl}">${msg("doSignOut")}</a></li>-->
+<#--                    </ul>-->
+<#--                </div>-->
+<#--            </div>-->
+<#--        </nav>-->
+<#--    </header>-->
 
     <div class="container">
 
@@ -101,6 +101,8 @@
                 <div><a class="<#if active=='applications'>active</#if>" href="${url.applicationsUrl}">Приложения</a></div>
                 <#if features.log><div><a class="<#if active=='log'>active</#if>" href="${url.logUrl}">${msg("log")}</a></div></#if>
 
+                <#if referrer?has_content && referrer.url?has_content><div><a href="${referrer.url}" id="referrer">${msg("backTo",referrer.name)}</a></div></#if>
+                <div><a href="${url.logoutUrl}">${msg("doSignOut")}</a></div>
             </div>
         </div>
 
