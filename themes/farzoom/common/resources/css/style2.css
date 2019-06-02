@@ -614,17 +614,17 @@ body.login-error-page .form-block .rights {
     }
 }
 
-body.authentification-page .wrapper {
+body.totp .wrapper {
     display: block;
 }
 
 @media (min-width: 992px) {
-    body.authentification-page .wrapper {
+    body.totp .wrapper {
         padding: 0 0 0 240px;
     }
 }
 
-body.authentification-page .left-menu {
+body.totp .left-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -634,22 +634,22 @@ body.authentification-page .left-menu {
     background: #EEEEEE;
 }
 
-body.authentification-page .left-menu .logo {
+body.totp .left-menu .logo {
     padding: 0 0 0 30px;
 }
 
-body.authentification-page .left-menu .logo img {
+body.totp .left-menu .logo img {
     max-width: 160px;
 }
 
-body.authentification-page .left-menu .grey {
+body.totp .left-menu .grey {
     font-size: 10px;
     margin: 25px 0 13px;
     padding: 0 0 0 30px;
     color: #B8B8B8;
 }
 
-body.authentification-page .left-menu .menu-block div a {
+body.totp .left-menu .menu-block div a {
     color: #000;
     display: block;
     padding: 0 0 0 30px;
@@ -658,36 +658,36 @@ body.authentification-page .left-menu .menu-block div a {
     text-decoration: none;
 }
 
-body.authentification-page .left-menu .menu-block div a.active,
-body.authentification-page .left-menu .menu-block div a:hover {
+body.totp .left-menu .menu-block div a.active,
+body.totp .left-menu .menu-block div a:hover {
     background: #fff;
 }
 
 @media (max-width: 991px) {
-    body.authentification-page .left-menu {
+    body.totp .left-menu {
         position: initial;
         height: auto;
         width: auto;
     }
 }
 
-body.authentification-page .auth-block {
+body.totp .auth-block {
     width: 100%;
     padding: 37px 30px 0;
     color: #504E5B;
 }
 
-body.authentification-page .auth-block .min-title {
+body.totp .auth-block .min-title {
     font-size: 26px;
     font-weight: 600;
 }
 
-body.authentification-page .auth-block .subtitle {
+body.totp .auth-block .subtitle {
     line-height: 1.4;
     margin: 10px 0 20px;
 }
 
-body.authentification-page .auth-block .green-block {
+body.totp .auth-block .green-block {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -698,17 +698,17 @@ body.authentification-page .auth-block .green-block {
     color: #fff;
 }
 
-body.authentification-page .auth-block .green-block .gb-right {
+body.totp .auth-block .green-block .gb-right {
     padding: 0 0 0 50px;
 }
 
-body.authentification-page .auth-block .green-block .gb-right .txt {
+body.totp .auth-block .green-block .gb-right .txt {
     font-size: 16px;
     line-height: 1.4;
     margin: 0 0 20px;
 }
 
-body.authentification-page .auth-block .green-block .gb-right .form-block {
+body.totp .auth-block .green-block .gb-right .form-block {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -717,62 +717,62 @@ body.authentification-page .auth-block .green-block .gb-right .form-block {
     align-items: flex-end;
 }
 
-body.authentification-page .auth-block .green-block .gb-right .form-block .input-blocks {
+body.totp .auth-block .green-block .gb-right .form-block .input-blocks {
     max-width: 290px;
     width: 100%;
 }
 
-body.authentification-page .auth-block .green-block .gb-right .form-block .input-blocks input {
+body.totp .auth-block .green-block .gb-right .form-block .input-blocks input {
     margin: 5px 0 0 0;
     background: #fff;
 }
 
-body.authentification-page .auth-block .green-block .gb-right .form-block .order {
+body.totp .auth-block .green-block .gb-right .form-block .order {
     margin: 0 0 0 30px;
     max-width: 242px;
     width: 100%;
 }
 
-body.authentification-page .auth-block .green-block .gb-right .form-block .order button {
+body.totp .auth-block .green-block .gb-right .form-block .order button {
     background: #504E5B;
     border-radius: 8px;
     color: #fff;
     border: 2px solid #504E5B;
 }
 
-body.authentification-page .auth-block .green-block .gb-right .form-block .order button:hover {
+body.totp .auth-block .green-block .gb-right .form-block .order button:hover {
     background: transparent;
     color: #504E5B;
 }
 
 @media (max-width: 767px) {
-    body.authentification-page .auth-block {
+    body.totp .auth-block {
         padding: 30px 15px;
     }
 
-    body.authentification-page .auth-block .green-block {
+    body.totp .auth-block .green-block {
         padding: 20px;
         flex-direction: column;
         align-items: center;
     }
 
-    body.authentification-page .auth-block .green-block .gb-right {
+    body.totp .auth-block .green-block .gb-right {
         padding: 0;
         margin: 30px 0 0;
     }
 }
 
-body.sessions-page .wrapper {
+body.sessions .wrapper {
     display: block;
 }
 
 @media (min-width: 992px) {
-    body.sessions-page .wrapper {
+    body.sessions .wrapper {
         padding: 0 0 0 240px;
     }
 }
 
-body.sessions-page .left-menu {
+body.sessions .left-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -782,22 +782,22 @@ body.sessions-page .left-menu {
     background: #EEEEEE;
 }
 
-body.sessions-page .left-menu .logo {
+body.sessions .left-menu .logo {
     padding: 0 0 0 30px;
 }
 
-body.sessions-page .left-menu .logo img {
+body.sessions .left-menu .logo img {
     max-width: 160px;
 }
 
-body.sessions-page .left-menu .grey {
+body.sessions .left-menu .grey {
     font-size: 10px;
     margin: 25px 0 13px;
     padding: 0 0 0 30px;
     color: #B8B8B8;
 }
 
-body.sessions-page .left-menu .menu-block div a {
+body.sessions .left-menu .menu-block div a {
     color: #000;
     display: block;
     padding: 0 0 0 30px;
@@ -806,45 +806,45 @@ body.sessions-page .left-menu .menu-block div a {
     text-decoration: none;
 }
 
-body.sessions-page .left-menu .menu-block div a.active,
-body.sessions-page .left-menu .menu-block div a:hover {
+body.sessions .left-menu .menu-block div a.active,
+body.sessions .left-menu .menu-block div a:hover {
     background: #fff;
 }
 
 @media (max-width: 991px) {
-    body.sessions-page .left-menu {
+    body.sessions .left-menu {
         position: initial;
         height: auto;
         width: auto;
     }
 }
 
-body.sessions-page .sessions {
+body.sessions .sessions {
     padding: 39px 30px 0;
     color: #504E5B;
 }
 
-body.sessions-page .sessions .min-title {
+body.sessions .sessions .min-title {
     font-size: 26px;
     font-weight: 600;
 }
 
-body.sessions-page .sessions .for-table {
+body.sessions .sessions .for-table {
     margin: 20px 0 40px;
 }
 
-body.sessions-page .sessions .for-table table {
+body.sessions .sessions .for-table table {
     width: 100%;
     border-collapse: collapse;
 }
 
-body.sessions-page .sessions .for-table table th,
-body.sessions-page .sessions .for-table table td {
+body.sessions .sessions .for-table table th,
+body.sessions .sessions .for-table table td {
     line-height: 39px;
     padding: 0 30px;
 }
 
-body.sessions-page .sessions .for-table table th {
+body.sessions .sessions .for-table table th {
     text-align: left;
     background: #EEEEEE;
     text-transform: uppercase;
@@ -853,21 +853,21 @@ body.sessions-page .sessions .for-table table th {
     letter-spacing: 1px;
 }
 
-body.sessions-page .sessions .order {
+body.sessions .sessions .order {
     text-align: center;
 }
 
 @media (max-width: 767px) {
-    body.sessions-page .sessions {
+    body.sessions .sessions {
         padding: 30px 15px;
     }
 
-    body.sessions-page .sessions .for-table {
+    body.sessions .sessions .for-table {
         overflow-x: scroll;
     }
 
-    body.sessions-page .sessions .for-table table th,
-    body.sessions-page .sessions .for-table table td {
+    body.sessions .sessions .for-table table th,
+    body.sessions .sessions .for-table table td {
         padding: 0 10px;
         line-height: 1.5;
     }
