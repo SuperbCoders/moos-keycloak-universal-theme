@@ -7,12 +7,40 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="robots" content="noindex, nofollow">
 
+    <meta http-equiv="content-language" content="ru">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="title" content="Абсолют Банк" />
+    <meta name="description" content="Абсолют Банк" />
+    <link rel="image_src" href="../images/social.jpg" />
+
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Абсолют Банк" />
+    <meta property="og:description" content="Абсолют Банк" />
+    <meta property="og:image" content="../images/social.jpg" />
+    <meta property="og:site_name" content="Абсолют Банк" />
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Абсолют Банк">
+    <meta name="twitter:description" content="Абсолют Банк">
+    <meta name="twitter:image" content="../images/social.jpg">
+
+    <meta itemprop="name" content="Абсолют Банк" />
+    <meta itemprop="description" content="Абсолют Банк" />
+    <meta itemprop="image" content="../images/social.jpg" />
+
     <#if properties.meta?has_content>
     <#list properties.meta?split(' ') as meta>
     <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}"/>
 </#list>
 </#if>
-<title><#nested "title"></title>
+<title>Абсолют Банк</title>
 <link rel="icon" href="${url.resourcesPath}/img/favicon.ico" />
 <#if properties.styles?has_content>
 <#list properties.styles?split(' ') as style>
@@ -31,7 +59,8 @@
 </#if>
 </head>
 
-<body class="${properties.kcBodyClass!}">
+<body class="login-page">
+    <div class="wrapper">
     <#if displayMessage && message?has_content>
         <div class="notification notification-${message.type}">
             <#if message.type = 'success'><span class="notification__text"></span></#if>
@@ -41,26 +70,10 @@
             <span class="notification__text">${message.summary?no_esc}</span>
         </div>
     </#if>
-    <section class="fr-app fr-login">
-        <section class="fr-login-sidebar">
-            <a class="fr-login-sidebar__logo" href="${properties.kcLogoLink!'#'}"><img src="${url.resourcesPath}/img/logo.svg" alt="farzoom"/></a>
-
-            <!-- Login form -->
-
-            <div class="fr-login-form-container">
-                <#nested "form">
-            </div>
-
-            <!-- END/ Login form -->
-            <div class="fr-login-sidebar__bottom">
-                <span>FarZoom 2018 © &nbsp; v. 1.2.9.1 ßeta 2 </span>
-                <a href="mailto:support@farzoom.com">support@farzoom.com</a>
-            </div>
-        </section>
-        <section class="fr-login-block">
-
-        </section>
-    </section>
+        <div class="form-block">
+            <#nested "form">
+        </div>
+    </div>
 </body>
 </html>
 </#macro>
