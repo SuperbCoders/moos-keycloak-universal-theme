@@ -5,7 +5,7 @@
 
     <div class="form-block">
     <form action="${url.accountUrl}" method="post">
-        <div class="restore-pass__title">${msg("editAccountHtmlTitle")}</div>
+<#--        <div class="restore-pass__title">${msg("editAccountHtmlTitle")}</div>-->
         <input type="hidden" id="stateChecker" name="stateChecker" value="${stateChecker}">
         <div class="input-blocks">
         <#if !realm.registrationEmailAsUsername>
@@ -29,22 +29,22 @@
 
         <div class="form-group ${messagesPerField.printIfExists('firstName','has-error')}">
             <label for="firstName" class="control-label">${msg("firstName")}</label> <span class="required">*</span>
-            <div class="ib ib-2">
+            <div class="ib ib-1">
                 <input type="text" class="form-control" id="firstName" name="firstName" value="${(account.firstName!'')}"/>
-                <a href="#">
-                    <img src="${url.resourcesPath}/img/pass-aft-black.svg" alt="">
-                </a>
+<#--                <a href="#">-->
+<#--                    <img src="${url.resourcesPath}/img/pass-aft-black.svg" alt="">-->
+<#--                </a>-->
             </div>
         </div>
 
         <div class="form-group ${messagesPerField.printIfExists('lastName','has-error')}">
 
             <label for="lastName" class="control-label">${msg("lastName")}</label> <span class="required">*</span>
-            <div class="ib ib-3">
+            <div class="ib ib-1">
                 <input type="text" class="form-control" id="lastName" name="lastName" value="${(account.lastName!'')}"/>
-                <a href="#">
-                    <img src="${url.resourcesPath}/img/pass-aft-black.svg" alt="">
-                </a>
+<#--                <a href="#">-->
+<#--                    <img src="${url.resourcesPath}/img/pass-aft-black.svg" alt="">-->
+<#--                </a>-->
             </div>
         </div>
         </div>

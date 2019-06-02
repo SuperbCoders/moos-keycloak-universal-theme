@@ -30,6 +30,17 @@
                                     <img src="${url.resourcesPath}/img/pass-aft-white.svg" alt="">
                                 </a>
                             </div>
+                            <script type="text/javascript">
+                                const classname = document.querySelector('.ib-2 img');
+                                classname.addEventListener("click", function() {
+                                    const $password = document.getElementById("password");
+                                    if ($password.type === 'password') {
+                                        $password.type = 'text';
+                                    } else {
+                                        $password.type = 'password';
+                                    }
+                                }, false);
+                            </script>
 <#--                            <input id="password" name="password" type="password" class="form-control form-control--password" aria-describedby="password" placeholder="${msg('password')}" autocomplete="off" aria-autocomplete="none">-->
                         </div>
                     </div>
