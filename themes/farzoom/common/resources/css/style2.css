@@ -269,7 +269,7 @@ body.main-page .form-block .input-blocks .ib input::placeholder {
 }
 
 body.main-page .form-block .input-blocks .ib.ib-1 input {
-    background: url(../images/login-bg-black.svg) no-repeat left 15px center;
+    background: url(../img/login-bg-black.svg) no-repeat left 15px center;
 }
 
 body.main-page .form-block .input-blocks .ib.ib-2,
@@ -293,7 +293,7 @@ body.main-page .form-block .input-blocks .ib.ib-3 a {
 
 body.main-page .form-block .input-blocks .ib.ib-2 input,
 body.main-page .form-block .input-blocks .ib.ib-3 input {
-    background: url(../images/password-bg-black.svg) no-repeat left 15px center;
+    background: url(../img/password-bg-black.svg) no-repeat left 15px center;
 }
 
 body.main-page .form-block .order {
@@ -323,7 +323,7 @@ body.main-page .form-block .order {
 }
 
 body.registration-page .wrapper {
-    background: rgba(0, 0, 0, 0.2) url(../images/site-bg.svg) no-repeat center / cover;
+    background: rgba(0, 0, 0, 0.2) url(../img/site-bg.svg) no-repeat center / cover;
 }
 
 body.registration-page .form-block {
@@ -358,7 +358,7 @@ body.registration-page .form-block .input-blocks .ib input::placeholder {
 }
 
 body.registration-page .form-block .input-blocks .ib.ib-1 input {
-    background: url(../images/login-bg-white.svg) no-repeat left 15px center;
+    background: url(../img/login-bg-white.svg) no-repeat left 15px center;
 }
 
 body.registration-page .form-block .input-blocks .ib.ib-2,
@@ -382,7 +382,7 @@ body.registration-page .form-block .input-blocks .ib.ib-3 a {
 
 body.registration-page .form-block .input-blocks .ib.ib-2 input,
 body.registration-page .form-block .input-blocks .ib.ib-3 input {
-    background: url(../images/password-bg-white.svg) no-repeat left 15px center;
+    background: url(../img/password-bg-white.svg) no-repeat left 15px center;
 }
 
 body.registration-page .form-block .order {
@@ -412,7 +412,7 @@ body.registration-page .form-block .order {
 }
 
 body.login-page .wrapper {
-    background: rgba(0, 0, 0, 0.2) url(../images/site-bg.svg) no-repeat center / cover;
+    background: rgba(0, 0, 0, 0.2) url(../img/site-bg.svg) no-repeat center / cover;
 }
 
 body.login-page .form-block {
@@ -452,7 +452,7 @@ body.login-page .form-block .input-blocks .ib input::placeholder {
 }
 
 body.login-page .form-block .input-blocks .ib.ib-1 input {
-    background: url(../images/login-bg-white.svg) no-repeat left 15px center;
+    background: url(../img/login-bg-white.svg) no-repeat left 15px center;
 }
 
 body.login-page .form-block .input-blocks .ib.ib-2 {
@@ -473,7 +473,7 @@ body.login-page .form-block .input-blocks .ib.ib-2 a {
 }
 
 body.login-page .form-block .input-blocks .ib.ib-2 input {
-    background: url(../images/password-bg-white.svg) no-repeat left 15px center;
+    background: url(../img/password-bg-white.svg) no-repeat left 15px center;
 }
 
 body.login-page .form-block .order {
@@ -514,7 +514,7 @@ body.login-page .form-block .are-new {
 }
 
 body.login-error-page .wrapper {
-    background: rgba(0, 0, 0, 0.2) url(../images/site-bg.svg) no-repeat center / cover;
+    background: rgba(0, 0, 0, 0.2) url(../img/site-bg.svg) no-repeat center / cover;
 }
 
 body.login-error-page .form-block {
@@ -554,7 +554,7 @@ body.login-error-page .form-block .input-blocks .ib input::placeholder {
 }
 
 body.login-error-page .form-block .input-blocks .ib.ib-1 input {
-    background: url(../images/login-bg-white.svg) no-repeat left 15px center;
+    background: url(../img/login-bg-white.svg) no-repeat left 15px center;
 }
 
 body.login-error-page .form-block .input-blocks .ib.ib-2 {
@@ -575,7 +575,7 @@ body.login-error-page .form-block .input-blocks .ib.ib-2 a {
 }
 
 body.login-error-page .form-block .input-blocks .ib.ib-2 input {
-    background: url(../images/password-bg-white.svg) no-repeat left 15px center;
+    background: url(../img/password-bg-white.svg) no-repeat left 15px center;
 }
 
 body.login-error-page .form-block .order {
