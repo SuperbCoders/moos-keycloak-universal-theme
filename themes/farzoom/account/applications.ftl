@@ -7,19 +7,27 @@
         <input type="hidden" id="stateChecker" name="stateChecker" value="${stateChecker}">
         <input type="hidden" id="referrer" name="referrer" value="${stateChecker}">
         <div class="for-table">
-        <table class="table table-striped table-bordered">
-            <thead>
-              <tr>
-                <td>${msg("application")}</td>
-                <td>${msg("availablePermissions")}</td>
-                <td>${msg("grantedPermissions")}</td>
-                <td>${msg("grantedPersonalInfo")}</td>
-                <td>${msg("additionalGrants")}</td>
-                <td>${msg("action")}</td>
-              </tr>
-            </thead>
+        <table>
+<#--            <thead>-->
+<#--              <tr>-->
+<#--                <td>${msg("application")}</td>-->
+<#--                <td>${msg("availablePermissions")}</td>-->
+<#--                <td>${msg("grantedPermissions")}</td>-->
+<#--                <td>${msg("grantedPersonalInfo")}</td>-->
+<#--                <td>${msg("additionalGrants")}</td>-->
+<#--                <td>${msg("action")}</td>-->
+<#--              </tr>-->
+<#--            </thead>-->
 
             <tbody>
+                <tr>
+                    <th>${msg("application")}</th>
+                    <th>${msg("availablePermissions")}</th>
+                    <th>${msg("grantedPermissions")}</th>
+                    <th>${msg("grantedPersonalInfo")}</th>
+                    <th>${msg("additionalGrants")}</th>
+                    <th>${msg("action")}</th>
+                </tr>
               <#list applications.applications as application>
                 <tr>
                     <td>

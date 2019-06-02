@@ -1061,6 +1061,30 @@ body.applications .applications .for-table {
     margin: 20px 0 40px;
 }
 
+body.applications .applications .for-table {
+    margin: 20px 0 40px;
+}
+
+body.applications .applications .for-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+body.applications .applications .for-table table th,
+body.applications .applications .for-table table td {
+    line-height: 39px;
+    padding: 0 30px;
+}
+
+body.applications .applications .for-table table th {
+    text-align: left;
+    background: #EEEEEE;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
     a.big {
         font-size: 29px;
@@ -1225,6 +1249,10 @@ body.user .form-block .input-blocks .ib.ib-3 a {
 body.user .form-block .input-blocks .ib.ib-2 input,
 body.user .form-block .input-blocks .ib.ib-3 input {
     background: url(../img/password-bg-black.svg) no-repeat left 15px center;
+}
+
+body.user .form-block .order button {
+    margin: 3px 0;
 }
 
 body.user .form-block .order {
