@@ -7,6 +7,34 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="robots" content="noindex, nofollow">
 
+  <meta http-equiv="content-language" content="ru">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta name="title" content="Абсолют Банк" />
+  <meta name="description" content="Абсолют Банк" />
+  <link rel="image_src" href="../images/social.jpg" />
+
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Абсолют Банк" />
+  <meta property="og:description" content="Абсолют Банк" />
+  <meta property="og:image" content="../images/social.jpg" />
+  <meta property="og:site_name" content="Абсолют Банк" />
+  <link rel="icon" href="../favicon.png" type="image/x-icon">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Абсолют Банк">
+  <meta name="twitter:description" content="Абсолют Банк">
+  <meta name="twitter:image" content="../images/social.jpg">
+
+  <meta itemprop="name" content="Абсолют Банк" />
+  <meta itemprop="description" content="Абсолют Банк" />
+  <meta itemprop="image" content="../images/social.jpg" />
+
   <#if properties.meta?has_content>
   <#list properties.meta?split(' ') as meta>
   <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}"/>
@@ -31,7 +59,7 @@
 </#if>
 </head>
 
-<body class="${properties.kcBodyClass!}">
+<body class="login-reset-password">
 <#if displayMessage && message?has_content>
   <div class="notification notification-${message.type}">
     <#if message.type = 'success'><span class="notification__text"></span></#if>
@@ -42,13 +70,10 @@
   </div>
 </#if>
 
-<div class="fr-app fr-main">
-  <div class="fr-fullpage">
-    <a class="fr-sidebar__logo" href="/"><img src="${url.resourcesPath}/img/logo-min.svg" alt="logo"></a>
-    <div class="centred-message-container">
+<div class="wrapper">
+    <div class="form-block">
       <#nested "form">
     </div>
-  </div>
 </div>
 </body>
 </html>

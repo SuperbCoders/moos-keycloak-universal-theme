@@ -513,6 +513,23 @@ body.login-page .form-block .are-new {
     }
 }
 
+body.login-reset-password .wrapper {
+    background: rgba(0, 0, 0, 0.2) url(../img/site-bg.svg) no-repeat center / cover;
+}
+
+body.login-reset-password .form-block {
+    color: #fff;
+    max-width: 490px;
+    width: 100%;
+    background: #EB9A42;
+    border-radius: 16px;
+    padding: 40px 40px 23px;
+}
+
+body.login-reset-password .form-block a {
+    color: #fff;
+}
+
 body.login-error-page .wrapper {
     background: rgba(0, 0, 0, 0.2) url(../img/site-bg.svg) no-repeat center / cover;
 }
