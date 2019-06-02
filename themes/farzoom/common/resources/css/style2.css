@@ -930,6 +930,63 @@ body.user .left-menu .menu-block div a:hover {
     }
 }
 
+body.password .wrapper {
+    display: block;
+}
+
+@media (min-width: 992px) {
+    body.password .wrapper {
+        padding: 0 0 0 240px;
+    }
+}
+
+body.password .left-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 28px 0;
+    height: 100vh;
+    width: 240px;
+    background: #EEEEEE;
+}
+
+body.password .left-menu .logo {
+    padding: 0 0 0 30px;
+}
+
+body.password .left-menu .logo img {
+    max-width: 160px;
+}
+
+body.password .left-menu .grey {
+    font-size: 10px;
+    margin: 25px 0 13px;
+    padding: 0 0 0 30px;
+    color: #B8B8B8;
+}
+
+body.password .left-menu .menu-block div a {
+    color: #000;
+    display: block;
+    padding: 0 0 0 30px;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+body.password .left-menu .menu-block div a.active,
+body.password .left-menu .menu-block div a:hover {
+    background: #fff;
+}
+
+@media (max-width: 991px) {
+    body.password .left-menu {
+        position: initial;
+        height: auto;
+        width: auto;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
     a.big {
         font-size: 29px;
