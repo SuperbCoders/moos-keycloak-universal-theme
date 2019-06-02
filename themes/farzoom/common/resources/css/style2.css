@@ -1063,3 +1063,96 @@ body.applications .applications .for-table {
         font-size: 29px;
     }
 }
+
+body.password .password .min-title {
+    font-size: 26px;
+    font-weight: 600;
+    width: 100%;
+    padding: 37px 30px 0;
+    color: #504E5B;
+}
+
+body.password .form-block {
+    max-width: 490px;
+    width: 100%;
+    border-radius: 16px;
+    padding: 40px 40px 79px;
+}
+
+body.password .form-block .logo {
+    margin: 0 0 55px;
+    text-align: center;
+}
+
+body.password .form-block .input-blocks label {
+    font-size: 14px;
+    color: #504E5B;
+}
+
+body.password .form-block .input-blocks .ib {
+    margin: 5px 0 20px;
+}
+
+body.password .form-block .input-blocks .ib input {
+    border-color: #B8B8B8;
+    text-align: center;
+    color: #504E5B;
+}
+
+body.password .form-block .input-blocks .ib input::placeholder {
+    color: #504E5B;
+}
+
+body.password .form-block .input-blocks .ib.ib-1 input {
+    background: url(../img/login-bg-black.svg) no-repeat left 15px center;
+}
+
+body.password .form-block .input-blocks .ib.ib-2,
+body.password .form-block .input-blocks .ib.ib-3 {
+    position: relative;
+}
+
+body.password .form-block .input-blocks .ib.ib-2 a,
+body.password .form-block .input-blocks .ib.ib-3 a {
+    position: absolute;
+    right: 13px;
+    height: 40px;
+    top: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+body.password .form-block .input-blocks .ib.ib-2 input,
+body.password .form-block .input-blocks .ib.ib-3 input {
+    background: url(../img/password-bg-black.svg) no-repeat left 15px center;
+}
+
+body.password .form-block .order {
+    margin: 39px 0 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    body.password .form-block .input-blocks {
+        max-width: 410px;
+        margin: auto;
+    }
+
+    body.password .form-block .logo {
+        margin: 0 0 30px;
+    }
+
+    body.password .form-block .order {
+        margin: 30px 0 0;
+    }
+}
+
+@media (max-width: 575px) {
+    body.password .form-block {
+        padding: 25px 15px;
+    }
+}
