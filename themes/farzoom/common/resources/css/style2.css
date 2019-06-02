@@ -613,6 +613,9 @@ body.login-error-page .form-block .rights {
         padding: 25px 15px;
     }
 }
+body.totp .container {
+    max-width: 100%;
+}
 
 body.totp .wrapper {
     display: block;
