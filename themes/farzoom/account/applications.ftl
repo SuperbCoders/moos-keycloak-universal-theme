@@ -8,17 +8,6 @@
         <input type="hidden" id="referrer" name="referrer" value="${stateChecker}">
         <div class="for-table">
         <table>
-<#--            <thead>-->
-<#--              <tr>-->
-<#--                <td>${msg("application")}</td>-->
-<#--                <td>${msg("availablePermissions")}</td>-->
-<#--                <td>${msg("grantedPermissions")}</td>-->
-<#--                <td>${msg("grantedPersonalInfo")}</td>-->
-<#--                <td>${msg("additionalGrants")}</td>-->
-<#--                <td>${msg("action")}</td>-->
-<#--              </tr>-->
-<#--            </thead>-->
-
             <tbody>
                 <tr>
                     <th>${msg("application")}</th>

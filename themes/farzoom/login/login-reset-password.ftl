@@ -13,7 +13,6 @@
                     <input type="email" class="form-control form-control--transporent" id="username" name="username" autofocus aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
                 <div class="order">
-<#--                    <button type="submit" class="btn btn-block btn-white">Восстановить</button>-->
                     <button type="submit" name="login">Восстановить</button>
                 </div>
             </div>
