@@ -1044,6 +1044,20 @@ body.applications .left-menu .menu-block div a:hover {
     }
 }
 
+body.applications .applications {
+    padding: 39px 30px 0;
+    color: #504E5B;
+}
+
+body.applications .applications .min-title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+body.applications .applications .for-table {
+    margin: 20px 0 40px;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
     a.big {
         font-size: 29px;
