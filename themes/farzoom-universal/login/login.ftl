@@ -51,9 +51,8 @@
                 </div>
 
                 <#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>
-                    <div class="are-new">
-                        <span>Новый пользователь? </span>
-                        <a tabindex="6" href="${url.registrationUrl}" title="Регистрация">Регистрация</a>
+                    <div id="kc-registration">
+                        <span>${msg("noAccount")} <a tabindex="6" href="${url.registrationUrl}">${msg("doRegister")}</a></span>
                     </div>
                 </#if>
             </form>
