@@ -52,8 +52,7 @@
 
                 <#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>
                     <div class="are-new">
-                        <span>Новый пользователь? </span>
-                        <a tabindex="6" href="${url.registrationUrl}" title="Регистрация">Регистрация</a>
+                        <a tabindex="6" href="${url.registrationUrl}" title="Вход c сертификатом ЭП">Вход c сертификатом ЭП</a>
                     </div>
                 </#if>
             </form>
