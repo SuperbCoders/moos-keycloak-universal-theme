@@ -63,15 +63,21 @@
                 <div><a class="<#if active=='sessions'>active</#if>" href="${url.sessionsUrl}">Сессии</a></div>
                 <div><a class="<#if active=='applications'>active</#if>" href="${url.applicationsUrl}">Приложения</a></div>
                 <#if features.log><div><a class="<#if active=='log'>active</#if>" href="${url.logUrl}">${msg("log")}</a></div></#if>
-
-                <#if referrer?has_content && referrer.url?has_content><div><a href="${referrer.url}" id="referrer">${msg("backTo",referrer.name)}</a></div></#if>
+                <#if referrer?has_content && referrer.url?has_content><div><a href="${referrer.url}" id="referrer">Вернуться</a></div></#if>
                 <div><a href="${url.logoutUrl}">${msg("doSignOut")}</a></div>
             </div>
         </div>
         <div class="wrapper">
             <#if message?has_content>
                 <div class="alert alert-${message.type}">
-                    <#if message.type=='success' ><span class="pficon pficon-ok"></span></#if>
+                    <#if message.type=='success'>
+                        <span class="pficon pficon-ok"></span>
+                        <#if referrer?has_content && referrer.url?has_content>
+                        <script>
+                          window.location.href = "${referrer.url}";
+                        </script>
+                        </#if>
+                    </#if>
                     <#if message.type=='error' ><span class="pficon pficon-error-octagon"></span><span class="pficon pficon-error-exclamation"></span></#if>
                     ${message.summary?no_esc}
                 </div>
