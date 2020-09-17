@@ -11157,14 +11157,14 @@ a.text-dark:hover, a.text-dark:focus {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #ef3124;
-    border-color: #ef3124;
+    background-color: #009b3a;
+    border-color: #009b3a;
 }
 
 .btn.btn-danger:not(:disabled):not(.disabled):active, .btn.btn-danger:not(:disabled):not(.disabled).active,
 .btn.btn-danger .show > .btn-primary.dropdown-toggle {
-    background-color: #ef3124;
-    border-color: #ef3124;
+    background-color: #009b3a;
+    border-color: #009b3a;
 }
 
 .btn.btn-danger:hover {
@@ -11293,7 +11293,7 @@ a.text-dark:hover, a.text-dark:focus {
     width: 64px;
     height: 64px;
     background-image: url("../img/plus.svg");
-    background-color: #ef3124;
+    background-color: #009b3a;
     background-repeat: no-repeat;
     background-position: center 12px;
     -webkit-border-radius: 24px;
@@ -11738,7 +11738,7 @@ i.icon {
     background-color: #00cb3f;
 }
 .notification.notification-error {
-    background-color: #ef3124;
+    background-color: #009b3a;
 }
 .notification.notification-warning {
     background-color: #df9600;
@@ -14364,7 +14364,7 @@ body {
     left: auto;
     bottom: 24px;
     right: 55px;
-    color: #ef3124;
+    color: #009b3a;
 }
 
 .modal-steps-list {

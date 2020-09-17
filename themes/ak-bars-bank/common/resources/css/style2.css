@@ -147,7 +147,7 @@ body .order button {
     width: 100%;
     max-width: 410px;
     background: #FFFFFF;
-    color: #ef3124;
+    color: #009b3a;
     cursor: pointer;
     font-weight: 600;
     border: none;
@@ -162,7 +162,7 @@ body .order button:hover {
 
 body .order a.orange,
 body .order button.orange {
-    background: #ef3124;
+    background: #009b3a;
     color: #fff;
 }
 
@@ -329,7 +329,7 @@ body.registration-page .wrapper {
 body.registration-page .form-block {
     max-width: 490px;
     width: 100%;
-    background: #ef3124;
+    background: #009b3a;
     border-radius: 16px;
     padding: 40px 40px 79px;
 }
@@ -521,7 +521,7 @@ body.login-reset-password .form-block {
     color: #fff;
     max-width: 490px;
     width: 100%;
-    background: #ef3124;
+    background: #009b3a;
     border-radius: 16px;
     padding: 40px 40px 23px;
 }
@@ -538,7 +538,7 @@ body.login-error-page .form-block {
     color: #fff;
     max-width: 490px;
     width: 100%;
-    background: #ef3124;
+    background: #009b3a;
     border-radius: 16px;
     padding: 40px 40px 23px;
 }
