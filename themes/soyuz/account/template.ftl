@@ -52,7 +52,7 @@
 
         <div class="left-menu">
             <div class="logo">
-                <img src="${url.resourcesPath}/img/abs-logo.svg" alt="">
+                <img src="${url.resourcesPath}/img/logo.svg" alt="">
             </div>
             <p class="grey">Меню</p>
             <div class="menu-block">

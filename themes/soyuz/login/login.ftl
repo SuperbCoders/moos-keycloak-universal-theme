@@ -8,7 +8,7 @@
         <#if realm.password>
             <form onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
                 <div class="logo">
-                    <img src="${url.resourcesPath}/img/abs-logo.svg" alt="">
+                    <img src="${url.resourcesPath}/img/logo.svg" alt="">
                 </div>
 
                 <div class="form-group ">
