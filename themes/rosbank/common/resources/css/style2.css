@@ -259,7 +259,7 @@ body.main-page .form-block .input-blocks .ib {
 }
 
 body.main-page .form-block .input-blocks .ib input {
-    border-color: #B8B8B8;
+    border-color: #504E5B;
     text-align: center;
     color: #504E5B;
 }
@@ -1138,7 +1138,7 @@ body.password .form-block .input-blocks .ib {
 }
 
 body.password .form-block .input-blocks .ib input {
-    border-color: #B8B8B8;
+    border-color: #504E5B;
     text-align: center;
     color: #504E5B;
 }
@@ -1231,7 +1231,7 @@ body.user .form-block .input-blocks .ib {
 }
 
 body.user .form-block .input-blocks .ib input {
-    border-color: #B8B8B8;
+    border-color: #504E5B;
     text-align: center;
     color: #504E5B;
 }
