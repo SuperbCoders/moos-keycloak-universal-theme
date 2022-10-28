@@ -55,20 +55,13 @@
                 </#if>
 
                 <div class="form-group__buttons">
-                    <button 
-                      class="order__button" 
-                      type="submit" 
-                      name="login" 
-                      id="kc-login"
-                    >
-                      Войти
-                    </button>
+                    <button class="order__button" type="submit" name="login" id="kc-login">Войти</button>
                     <p class="form-group__buttons-span">или</p>
                     <button 
                       class="order__button order__button--secondary" 
                       type="submit" 
                       name="login" 
-                      id="kc-login-by"
+                      id="kc-login"
                     >
                       Войти с помощью
                     </button>
