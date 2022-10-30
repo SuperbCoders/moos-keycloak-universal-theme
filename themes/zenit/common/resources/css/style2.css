@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #222222;
     font-weight: 400;
@@ -106,10 +107,6 @@ body.login-page .form-block .input-blocks .ib.ib-2 a {
     display: -o-flex;
     display: flex;
     align-items: center;
-}
-
-body.login-error-page .wrapper {
-    background: rgba(0, 0, 0, 0.2) url(../img/site-bg.svg) no-repeat center / cover;
 }
 
 body.login-error-page .form-block {
